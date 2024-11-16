@@ -7,7 +7,7 @@ Hooks.on("initializeDynamicTokenRingConfig", (a) => {
       BKG_WAVE: "TOKEN.RING.EFFECTS.BKG_WAVE",
       INVISIBILITY: "TOKEN.RING.EFFECTS.INVISIBILITY"
     },
-    spritesheet: "modules/Custom-token-rings/rings/rings-blood.json"
+    spritesheet: "modules/rebels-custom-token-rings/rings/rings-blood.json"
   });
   a.addConfig("bloodring", s);
 });
@@ -21,7 +21,7 @@ Hooks.on("initializeDynamicTokenRingConfig", (a) => {
       BKG_WAVE: "TOKEN.RING.EFFECTS.BKG_WAVE",
       INVISIBILITY: "TOKEN.RING.EFFECTS.INVISIBILITY"
     },
-    spritesheet: "modules/Custom-token-rings/rings/sky-kings.json"
+    spritesheet: "modules/rebels-custom-token-rings/rings/sky-kings.json"
   });
   a.addConfig("skykingsrings", s);
 });
@@ -35,7 +35,7 @@ Hooks.on("initializeDynamicTokenRingConfig", (a) => {
       BKG_WAVE: "TOKEN.RING.EFFECTS.BKG_WAVE",
       INVISIBILITY: "TOKEN.RING.EFFECTS.INVISIBILITY"
     },
-    spritesheet: "modules/Custom-token-rings/rings/custom token ring.json"
+    spritesheet: "modules/rebels-custom-token-rings/rings/custom token ring.json"
   });
   a.addConfig("customtokenring", s);
 });
