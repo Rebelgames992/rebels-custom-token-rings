@@ -1,30 +1,38 @@
-{"frames":
-
 {
-	"token-ring-bkg":{
+	"config":{
+		"defaultColorBand":{
+			"startRadius": 0.59,
+			"endRadius": 0.715
+
+		}
+	},
+	"frames": {
+		"token-ring-bkg": {
 	"frame": {"x":0,"y":0,"w":1024,"h":1024},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":1024,"h":1024},
 	"sourceSize": {"w":1024,"h":1024},
-	"anchor": {"x": 0.5, "y": 0.5}
-},
-"token-ring":{
+	"anchor": { "x": 0.5, "y": 0.5 }
+	},
+
+		"token-ring": {
 	"frame": {"x":1024,"y":0,"w":1024,"h":1024},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":1024,"h":1024},
 	"sourceSize": {"w":1024,"h":1024},
-	"anchor": {"x": 0.5, "y": 0.5}
-},
+	"anchor": { "x": 0.5, "y": 0.5 }
+		}
+	},
+
 "meta": {
 	"app": "https://www.codeandweb.com/texturepacker",
 	"version": "1.0",
-	"image": "Custom token ring.png",
+	"image": "custom token ring.png",
 	"format": "RGBA8888",
 	"size": {"w":2048,"h":1024},
 	"scale": "1",
-	"smartupdate": "$TexturePacker:SmartUpdate:d1822c0a872d278dbad22205f7d1baea:5a364da2fa59b56566eb51d1a8fd102f:5f243a927c9f6e3233f5b3d5ff7207b5$"
-}
+	"smartupdate": "$TexturePacker:SmartUpdate:ac61632195c79447289820c56f6a3361:4b1ee0c1febe668a4b0cadca3a543978:788367ee0ac82ce244e4f02ba58ec464$"
 }
 }
