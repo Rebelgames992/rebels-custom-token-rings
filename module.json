@@ -1,7 +1,7 @@
 {
   "id": "rebels-custom-token-rings",
   "title": "Rebels custom token rings",
-  "version": "1.4",
+  "version": "1.4.1",
   "compatibility": {
     "minimum": "12",
     "verified": "12"
