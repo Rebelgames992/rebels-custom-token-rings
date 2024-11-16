@@ -1,0 +1,19 @@
+{
+  "id": "custom-token-rings",
+  "title": "Custom token rings",
+  "version": "0.0.1",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "authors": [
+    {
+      "name": "Rebel",
+      "discord": "rebelgames",
+      "flags": {}
+    }
+  ],
+  "esmodules": [
+    "index.js"
+  ]
+}
