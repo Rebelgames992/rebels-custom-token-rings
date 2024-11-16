@@ -1,21 +1,21 @@
 {
-  "id": "Rebels-custom-token-rings",
+  "id": "rebels-custom-token-rings",
   "title": "Rebels custom token rings",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "compatibility": {
     "minimum": "12",
     "verified": "12"
   },
+  "description": "A module for testing out token rings",
   "authors": [
     {
       "name": "Rebel",
-      "discord": "rebelgames",
+      "discord": "Rebelgames",
       "flags": {}
     }
   ],
   "esmodules": [
     "index.js"
   ],
-  "description": "A Module to test out token rings",
-  "url": "https://github.com/Rebelgames992/Rebels-custom-token-rings"
+  "url": "https://github.com/Rebelgames992/Rebels-custom-token-rings/tree/main"
 }
