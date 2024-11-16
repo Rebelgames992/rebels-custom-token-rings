@@ -15,5 +15,7 @@
   ],
   "esmodules": [
     "index.js"
-  ]
+  ],
+  "description": "A Module to test out token rings",
+  "url": "https://github.com/Rebelgames992/Rebels-custom-token-rings"
 }
