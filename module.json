@@ -17,5 +17,7 @@
   "esmodules": [
     "index.js"
   ],
-  "url": "https://github.com/Rebelgames992/Rebels-custom-token-rings/tree/main"
+  "url": "https://github.com/Rebelgames992/Rebels-custom-token-rings/tree/main",
+  "manifest": "https://github.com/Rebelgames992/rebels-custom-token-rings/blob/main/module.json",
+  "download": "https://github.com/Rebelgames992/rebels-custom-token-rings/blob/main/Module.zip"
 }
