@@ -1,43 +1,29 @@
 Hooks.on("initializeDynamicTokenRingConfig", (a) => {
-  const s = new foundry.canvas.tokens.DynamicRingData({
-    label: "blood ring",
-    effects: {
-      RING_PULSE: "TOKEN.RING.EFFECTS.RING_PULSE",
-      RING_GRADIENT: "TOKEN.RING.EFFECTS.RING_GRADIENT",
-      BKG_WAVE: "TOKEN.RING.EFFECTS.BKG_WAVE",
-      INVISIBILITY: "TOKEN.RING.EFFECTS.INVISIBILITY"
-    },
+  const A1 = new foundry.canvas.tokens.DynamicRingData({
+    Id: 'PathfinderBloodLordsRing',
+    label: "blood lords ring",
     spritesheet: "modules/rebels-custom-token-rings/rings/rings-blood.json"
   });
-  a.addConfig("bloodring", s);
-});
+  a.addConfig("bloodring", A1);
 
-Hooks.on("initializeDynamicTokenRingConfig", (a) => {
-  const s = new foundry.canvas.tokens.DynamicRingData({
-    label: "sky king's ring",
-    effects: {
-      RING_PULSE: "TOKEN.RING.EFFECTS.RING_PULSE",
-      RING_GRADIENT: "TOKEN.RING.EFFECTS.RING_GRADIENT",
-      BKG_WAVE: "TOKEN.RING.EFFECTS.BKG_WAVE",
-      INVISIBILITY: "TOKEN.RING.EFFECTS.INVISIBILITY"
-    },
+    const A2 = new foundry.canvas.tokens.DynamicRingData({
+    Id: 'pathfinderSkyKingsTombRing',
+    label: "sky king's tomb ring",
     spritesheet: "modules/rebels-custom-token-rings/rings/sky-kings.json"
   });
-  a.addConfig("skykingsrings", s);
-});
+  a.addConfig("skykingsrings", A2);
 
-Hooks.on("initializeDynamicTokenRingConfig", (a) => {
-  const s = new foundry.canvas.tokens.DynamicRingData({
-    label: "custom ring",
-    effects: {
-      RING_PULSE: "TOKEN.RING.EFFECTS.RING_PULSE",
-      RING_GRADIENT: "TOKEN.RING.EFFECTS.RING_GRADIENT",
-      BKG_WAVE: "TOKEN.RING.EFFECTS.BKG_WAVE",
-      INVISIBILITY: "TOKEN.RING.EFFECTS.INVISIBILITY"
-    },
+  const A3 = new foundry.canvas.tokens.DynamicRingData({
+    id: 'CustomRingPrototype',
+    label: "custom test ring",
     spritesheet: "modules/rebels-custom-token-rings/rings/custom token ring.json"
   });
-  a.addConfig("customtokenring", s);
-});
+  a.addConfig("customtokenring", A3);
 
-console.log(`[${f}@${Z}...] successfully loaded!`);
+  const A4 = new foundry.canvas.tokens.DynamicRingData({
+    id: 'DesertRing',
+    label: "Desert ring",
+    spritesheet: "modules/rebels-custom-token-rings/rings/Desert token spritesheet.json"
+  });
+  a.addConfig("customtokenring", A4);
+});
