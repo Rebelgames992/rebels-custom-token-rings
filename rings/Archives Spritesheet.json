@@ -17,7 +17,6 @@
 	},
 
 		"token-ring": {
-	"filename": "Sky king's ring.png",
 	"frame": {"x":1024,"y":0,"w":1024,"h":1024},
 	"rotated": false,
 	"trimmed": false,
