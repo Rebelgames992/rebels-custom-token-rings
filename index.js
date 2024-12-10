@@ -26,4 +26,11 @@ Hooks.on("initializeDynamicTokenRingConfig", (a) => {
     spritesheet: "modules/rebels-custom-token-rings/rings/Desert token spritesheet.json"
   });
   a.addConfig("customtokenring", A4);
+
+  const A5 = new foundry.canvas.tokens.DynamicRingData({
+    id: 'ArchivesRing',
+    label: "Archives Ring",
+    spritesheet: "modules/rebels-custom-token-rings/rings/Archives Spritesheet.json"
+  });
+  a.addConfig("customtokenring", A5);
 });
