@@ -1,10 +1,10 @@
 {
   "id": "rebels-custom-token-rings",
   "title": "Rebels custom token rings",
-  "version": "1.6.0",
+  "version": "1.6.1",
   "compatibility": {
     "minimum": "12",
-    "verified": "12"
+    "verified": "13"
   },
   "description": "A module for testing out token rings",
   "authors": [
