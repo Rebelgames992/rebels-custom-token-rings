@@ -3,7 +3,7 @@
   "title": "Rebel's custom token rings",
   "version": "2.0.2",
   "compatibility": {
-    "minimum": "12",
+    "minimum": "13",
     "verified": "13"
   },
   "description": "A module that adds a few new dynamic token rings",
