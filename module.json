@@ -6,7 +6,7 @@
     "minimum": "12",
     "verified": "13"
   },
-  "description": "A module that adds a few new token rings",
+  "description": "A module that adds a few new dynamic token rings",
   "authors": [
     {
       "name": "Rebel",
