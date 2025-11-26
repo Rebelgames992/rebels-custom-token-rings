@@ -33,6 +33,10 @@ Hooks.on("initializeDynamicTokenRingConfig", (a) => {
   ? "modules/rebels-custom-token-rings/rings/kingdom ring/Kingdom-ring-color-band.json"
   : "modules/rebels-custom-token-rings/rings/kingdom ring/Kingdom-ring-no-color-band.json";
 
+  const crystalRingSpritesheet = useColorBand
+  ? "modules/rebels-custom-token-rings/rings/Crystal ring/Crystal-ring-color-band.json"
+  : "modules/rebels-custom-token-rings/rings/Crystal ring/Crystal-ring-no-color-band.json"
+
 
 
   const DwarvenRing_rctr = new foundry.canvas.placeables.tokens.DynamicRingData({
@@ -69,4 +73,11 @@ Hooks.on("initializeDynamicTokenRingConfig", (a) => {
     spritesheet: kingdomRingSpritesheet
   });
   a.addConfig("KingdomRing_rctr", KingdomRing_rctr);
+
+   const CrystalRing_rctr = new foundry.canvas.placeables.tokens.DynamicRingData({
+    id: 'CrystalRing_rctr',
+    label: "Crystal Ring",
+    spritesheet: crystalRingSpritesheet
+  });
+  a.addConfig("CrystalRing_rctr", CrystalRing_rctr);
 });
