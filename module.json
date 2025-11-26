@@ -1,7 +1,7 @@
 {
   "id": "rebels-custom-token-rings",
   "title": "Rebel's custom token rings",
-  "version": "2.0.3",
+  "version": "2.1.0",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
@@ -20,5 +20,5 @@
 
   "url": "https://github.com/Rebelgames992/rebels-custom-token-rings",
   "manifest": "https://github.com/Rebelgames992/rebels-custom-token-rings/releases/latest/download/module.json",
-  "download": "https://github.com/Rebelgames992/rebels-custom-token-rings/releases/download/2.0.3/Module.zip"
+  "download": "https://github.com/Rebelgames992/rebels-custom-token-rings/releases/download/2.1.0/Module.zip"
 }
